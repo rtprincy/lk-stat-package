@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: lk-stat-package
-Version: 0.1.1
+Version: 0.1.2
 Summary: A Cython-based package for computing the Laffler-Kinman statistic.
 Author: Princy Ranaivomanana
 Author-email: rtprincy@gmail.com
@@ -10,8 +10,9 @@ Classifier: Programming Language :: Cython
 Classifier: License :: OSI Approved :: MIT License
 Description-Content-Type: text/markdown
 Requires-Dist: numpy
+Requires-Dist: cython
 
-This package computes the Lafler-Kinman statistic (\(\Theta\)) for time-series data, incorporating the uncertainties of the flux/magnitude measurements.
+This package computes the Lafler-Kinman statistic $\Theta$ for time-series data, incorporating the uncertainties of the flux/magnitude measurements.
 
 ## Installation
 

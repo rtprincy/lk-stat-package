@@ -11,19 +11,23 @@ extensions = [
     )
 ]
 
+
+
 # Setup script
 setup(
     name="lk_stat_package",
-    version="0.1.1",
+    version="0.1.2",
     description="A Cython-based package for computing the Laffler-Kinman statistic.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="Princy Ranaivomanana",
     author_email="rtprincy@gmail.com",
     packages=["lk_stat_package"],
+    package_data={"lk_stat_package": ["*.pyx", "*.pxd"]},
+    include_package_data=True,
     ext_modules=cythonize(extensions),
     zip_safe=False,
-    install_requires=["numpy"],
+    install_requires=["numpy","cython"],
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
