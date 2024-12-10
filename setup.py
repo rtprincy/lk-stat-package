@@ -34,6 +34,8 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Cython",
         "License :: OSI Approved :: MIT License",
+        "Operating System :: POSIX :: Linux",
     ],
+    platforms=["manylinux2014_x86_64"],
 )
 

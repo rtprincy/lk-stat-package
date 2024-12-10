@@ -28,7 +28,7 @@ jobs:
         pip install build twine numpy Cython  # Install build tools, NumPy, and Cython
 
     - name: Build the Package
-      run: python -m build
+      run: python -m build --sdist
 
     - name: Publish to PyPI
       env:
