@@ -1,5 +1,6 @@
 MANIFEST.in
 README.md
+pyproject.toml
 setup.py
 lk_stat_package/__init__.py
 lk_stat_package/lk_stat.c
