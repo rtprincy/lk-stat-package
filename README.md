@@ -5,7 +5,7 @@ This package computes the Lafler-Kinman statistic $\Theta$ for time-series data,
 To install the package, run the following command:
 
 
-pip install lk-stat-package==0.1
+pip install lk-stat-package
 
 
 
