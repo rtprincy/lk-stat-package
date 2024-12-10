@@ -20,7 +20,7 @@ Use the following line of code to import the package:
 from lk_stat_package import lk_stat
 
 
-### Computing the Lafler-Kinman Statistic
+### Computing the Laffler-Kinman Statistic
 
 To compute the Laffler-Kinman statistic, use the `lk_stat` function as shown below:
 
