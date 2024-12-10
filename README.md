@@ -1,4 +1,4 @@
-This package computes the Lafler-Kinman statistic $\Theta$ for time-series data, incorporating the uncertainties of the flux/magnitude measurements.
+This package computes the Laffler-Kinman statistic $\Theta$ for time-series data, incorporating the uncertainties of the flux/magnitude measurements.
 
 ## Installation
 
@@ -22,7 +22,7 @@ from lk_stat_package import lk_stat
 
 ### Computing the Lafler-Kinman Statistic
 
-To compute the Lafler-Kinman statistic, use the `lk_stat` function as shown below:
+To compute the Laffler-Kinman statistic, use the `lk_stat` function as shown below:
 
 
 theta = lk_stat(periods, magnitude, magnitude_err, time)
@@ -35,7 +35,7 @@ theta = lk_stat(periods, magnitude, magnitude_err, time)
 - Time: Array of observation times.
 
 **Returns:**
-- theta: The Lafler-Kinman statistic for each trial period.
+- theta: The Laffler-Kinman statistic for each trial period.
 
 Feel free to contact the author for any questions or contributions!
 
