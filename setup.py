@@ -1,6 +1,7 @@
 from setuptools import setup, Extension, find_packages
 from Cython.Build import cythonize
 import numpy as np
+import Cython
 
 # Define the extension
 extensions = [
