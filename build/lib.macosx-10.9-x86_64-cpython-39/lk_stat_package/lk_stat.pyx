@@ -1,4 +1,5 @@
 cimport cython
+import cython
 cimport numpy as np
 import numpy as np
 from libc.stdlib cimport malloc, free

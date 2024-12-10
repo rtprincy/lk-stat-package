@@ -19262,7 +19262,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   return __pyx_r;
 }
 
-/* "lk_stat_package/lk_stat.pyx":12
+/* "lk_stat_package/lk_stat.pyx":13
  *     void free(void* ptr)
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -19333,7 +19333,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 12, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 13, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
@@ -19341,9 +19341,9 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[1]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 12, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 13, __pyx_L3_error)
         else {
-          __Pyx_RaiseArgtupleInvalid("lk_stat", 1, 4, 4, 1); __PYX_ERR(0, 12, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("lk_stat", 1, 4, 4, 1); __PYX_ERR(0, 13, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -19351,9 +19351,9 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[2]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 12, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 13, __pyx_L3_error)
         else {
-          __Pyx_RaiseArgtupleInvalid("lk_stat", 1, 4, 4, 2); __PYX_ERR(0, 12, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("lk_stat", 1, 4, 4, 2); __PYX_ERR(0, 13, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  3:
@@ -19361,14 +19361,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
           (void)__Pyx_Arg_NewRef_FASTCALL(values[3]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 12, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 13, __pyx_L3_error)
         else {
-          __Pyx_RaiseArgtupleInvalid("lk_stat", 1, 4, 4, 3); __PYX_ERR(0, 12, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("lk_stat", 1, 4, 4, 3); __PYX_ERR(0, 13, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lk_stat") < 0)) __PYX_ERR(0, 12, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lk_stat") < 0)) __PYX_ERR(0, 13, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs != 4)) {
       goto __pyx_L5_argtuple_error;
@@ -19378,14 +19378,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       values[2] = __Pyx_Arg_FASTCALL(__pyx_args, 2);
       values[3] = __Pyx_Arg_FASTCALL(__pyx_args, 3);
     }
-    __pyx_v_periods = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_periods.memview)) __PYX_ERR(0, 14, __pyx_L3_error)
-    __pyx_v_mag = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_mag.memview)) __PYX_ERR(0, 14, __pyx_L3_error)
-    __pyx_v_magerr = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_magerr.memview)) __PYX_ERR(0, 14, __pyx_L3_error)
-    __pyx_v_Time = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[3], PyBUF_WRITABLE); if (unlikely(!__pyx_v_Time.memview)) __PYX_ERR(0, 14, __pyx_L3_error)
+    __pyx_v_periods = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_periods.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
+    __pyx_v_mag = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_mag.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
+    __pyx_v_magerr = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_magerr.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
+    __pyx_v_Time = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[3], PyBUF_WRITABLE); if (unlikely(!__pyx_v_Time.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("lk_stat", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 12, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("lk_stat", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 13, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -19473,7 +19473,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
   __pyx_pybuffernd_theta_array.data = NULL;
   __pyx_pybuffernd_theta_array.rcbuffer = &__pyx_pybuffer_theta_array;
 
-  /* "lk_stat_package/lk_stat.pyx":34
+  /* "lk_stat_package/lk_stat.pyx":35
  *         An array of theta values corresponding to each trial period.
  *     """
  *     cdef int periods_size = periods.shape[0]             # <<<<<<<<<<<<<<
@@ -19482,7 +19482,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
   __pyx_v_periods_size = (__pyx_v_periods.shape[0]);
 
-  /* "lk_stat_package/lk_stat.pyx":35
+  /* "lk_stat_package/lk_stat.pyx":36
  *     """
  *     cdef int periods_size = periods.shape[0]
  *     cdef int data_size = mag.shape[0]             # <<<<<<<<<<<<<<
@@ -19491,7 +19491,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
   __pyx_v_data_size = (__pyx_v_mag.shape[0]);
 
-  /* "lk_stat_package/lk_stat.pyx":37
+  /* "lk_stat_package/lk_stat.pyx":38
  *     cdef int data_size = mag.shape[0]
  *     cdef double p
  *     cdef double* phi = <double*>malloc(data_size * sizeof(double))             # <<<<<<<<<<<<<<
@@ -19500,7 +19500,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
   __pyx_v_phi = ((double *)malloc((__pyx_v_data_size * (sizeof(double)))));
 
-  /* "lk_stat_package/lk_stat.pyx":38
+  /* "lk_stat_package/lk_stat.pyx":39
  *     cdef double p
  *     cdef double* phi = <double*>malloc(data_size * sizeof(double))
  *     cdef int* nphi = <int*>malloc(data_size * sizeof(int))             # <<<<<<<<<<<<<<
@@ -19509,7 +19509,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
   __pyx_v_nphi = ((int *)malloc((__pyx_v_data_size * (sizeof(int)))));
 
-  /* "lk_stat_package/lk_stat.pyx":39
+  /* "lk_stat_package/lk_stat.pyx":40
  *     cdef double* phi = <double*>malloc(data_size * sizeof(double))
  *     cdef int* nphi = <int*>malloc(data_size * sizeof(int))
  *     cdef double* sorted_mag = <double*>malloc(data_size * sizeof(double))             # <<<<<<<<<<<<<<
@@ -19518,7 +19518,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
   __pyx_v_sorted_mag = ((double *)malloc((__pyx_v_data_size * (sizeof(double)))));
 
-  /* "lk_stat_package/lk_stat.pyx":40
+  /* "lk_stat_package/lk_stat.pyx":41
  *     cdef int* nphi = <int*>malloc(data_size * sizeof(int))
  *     cdef double* sorted_mag = <double*>malloc(data_size * sizeof(double))
  *     cdef double* sorted_magerr = <double*>malloc(data_size * sizeof(double))             # <<<<<<<<<<<<<<
@@ -19527,7 +19527,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
   __pyx_v_sorted_magerr = ((double *)malloc((__pyx_v_data_size * (sizeof(double)))));
 
-  /* "lk_stat_package/lk_stat.pyx":41
+  /* "lk_stat_package/lk_stat.pyx":42
  *     cdef double* sorted_mag = <double*>malloc(data_size * sizeof(double))
  *     cdef double* sorted_magerr = <double*>malloc(data_size * sizeof(double))
  *     cdef double* w = <double*>malloc((data_size - 1) * sizeof(double))             # <<<<<<<<<<<<<<
@@ -19536,7 +19536,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
   __pyx_v_w = ((double *)malloc(((__pyx_v_data_size - 1) * (sizeof(double)))));
 
-  /* "lk_stat_package/lk_stat.pyx":42
+  /* "lk_stat_package/lk_stat.pyx":43
  *     cdef double* sorted_magerr = <double*>malloc(data_size * sizeof(double))
  *     cdef double* w = <double*>malloc((data_size - 1) * sizeof(double))
  *     cdef int* idx = <int*>malloc(data_size * sizeof(int))             # <<<<<<<<<<<<<<
@@ -19545,46 +19545,46 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
   __pyx_v_idx = ((int *)malloc((__pyx_v_data_size * (sizeof(int)))));
 
-  /* "lk_stat_package/lk_stat.pyx":45
+  /* "lk_stat_package/lk_stat.pyx":46
  *     cdef int i, j, k
  *     cdef double sum_w, sum_w_diff_sq, sum_var, mean_m
  *     cdef np.ndarray[double, ndim=1] theta_array = np.zeros(periods_size, dtype=np.double)             # <<<<<<<<<<<<<<
  * 
  *     for i in range(periods_size):
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 45, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 46, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_zeros); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 45, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_zeros); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 46, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_periods_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 45, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_periods_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 46, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 45, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 46, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1)) __PYX_ERR(0, 45, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1)) __PYX_ERR(0, 46, __pyx_L1_error);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 45, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 46, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 45, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 46, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_double); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 45, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_double); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 46, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dtype, __pyx_t_5) < 0) __PYX_ERR(0, 45, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dtype, __pyx_t_5) < 0) __PYX_ERR(0, 46, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 45, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 46, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (!(likely(((__pyx_t_5) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_5, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 45, __pyx_L1_error)
+  if (!(likely(((__pyx_t_5) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_5, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 46, __pyx_L1_error)
   __pyx_t_6 = ((PyArrayObject *)__pyx_t_5);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_theta_array.rcbuffer->pybuffer, (PyObject*)__pyx_t_6, &__Pyx_TypeInfo_double, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
       __pyx_v_theta_array = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_theta_array.rcbuffer->pybuffer.buf = NULL;
-      __PYX_ERR(0, 45, __pyx_L1_error)
+      __PYX_ERR(0, 46, __pyx_L1_error)
     } else {__pyx_pybuffernd_theta_array.diminfo[0].strides = __pyx_pybuffernd_theta_array.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_theta_array.diminfo[0].shape = __pyx_pybuffernd_theta_array.rcbuffer->pybuffer.shape[0];
     }
   }
@@ -19592,7 +19592,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
   __pyx_v_theta_array = ((PyArrayObject *)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "lk_stat_package/lk_stat.pyx":47
+  /* "lk_stat_package/lk_stat.pyx":48
  *     cdef np.ndarray[double, ndim=1] theta_array = np.zeros(periods_size, dtype=np.double)
  * 
  *     for i in range(periods_size):             # <<<<<<<<<<<<<<
@@ -19604,7 +19604,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
   for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
     __pyx_v_i = __pyx_t_9;
 
-    /* "lk_stat_package/lk_stat.pyx":48
+    /* "lk_stat_package/lk_stat.pyx":49
  * 
  *     for i in range(periods_size):
  *         p = periods[i]             # <<<<<<<<<<<<<<
@@ -19614,7 +19614,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
     __pyx_t_10 = __pyx_v_i;
     __pyx_v_p = (*((double *) ( /* dim=0 */ (__pyx_v_periods.data + __pyx_t_10 * __pyx_v_periods.strides[0]) )));
 
-    /* "lk_stat_package/lk_stat.pyx":50
+    /* "lk_stat_package/lk_stat.pyx":51
  *         p = periods[i]
  * 
  *         for j in range(data_size):             # <<<<<<<<<<<<<<
@@ -19626,7 +19626,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
     for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_12; __pyx_t_13+=1) {
       __pyx_v_j = __pyx_t_13;
 
-      /* "lk_stat_package/lk_stat.pyx":51
+      /* "lk_stat_package/lk_stat.pyx":52
  * 
  *         for j in range(data_size):
  *             phi[j] = Time[j] / p             # <<<<<<<<<<<<<<
@@ -19637,11 +19637,11 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
       __pyx_t_14 = (*((double *) ( /* dim=0 */ (__pyx_v_Time.data + __pyx_t_10 * __pyx_v_Time.strides[0]) )));
       if (unlikely(__pyx_v_p == 0)) {
         PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-        __PYX_ERR(0, 51, __pyx_L1_error)
+        __PYX_ERR(0, 52, __pyx_L1_error)
       }
       (__pyx_v_phi[__pyx_v_j]) = (__pyx_t_14 / __pyx_v_p);
 
-      /* "lk_stat_package/lk_stat.pyx":52
+      /* "lk_stat_package/lk_stat.pyx":53
  *         for j in range(data_size):
  *             phi[j] = Time[j] / p
  *             nphi[j] = <int>phi[j]             # <<<<<<<<<<<<<<
@@ -19650,7 +19650,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
       (__pyx_v_nphi[__pyx_v_j]) = ((int)(__pyx_v_phi[__pyx_v_j]));
 
-      /* "lk_stat_package/lk_stat.pyx":53
+      /* "lk_stat_package/lk_stat.pyx":54
  *             phi[j] = Time[j] / p
  *             nphi[j] = <int>phi[j]
  *             phi[j] -= nphi[j]             # <<<<<<<<<<<<<<
@@ -19660,7 +19660,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
       __pyx_t_15 = __pyx_v_j;
       (__pyx_v_phi[__pyx_t_15]) = ((__pyx_v_phi[__pyx_t_15]) - (__pyx_v_nphi[__pyx_v_j]));
 
-      /* "lk_stat_package/lk_stat.pyx":54
+      /* "lk_stat_package/lk_stat.pyx":55
  *             nphi[j] = <int>phi[j]
  *             phi[j] -= nphi[j]
  *             idx[j] = j             # <<<<<<<<<<<<<<
@@ -19670,7 +19670,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
       (__pyx_v_idx[__pyx_v_j]) = __pyx_v_j;
     }
 
-    /* "lk_stat_package/lk_stat.pyx":56
+    /* "lk_stat_package/lk_stat.pyx":57
  *             idx[j] = j
  * 
  *         for j in range(data_size):             # <<<<<<<<<<<<<<
@@ -19682,7 +19682,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
     for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_12; __pyx_t_13+=1) {
       __pyx_v_j = __pyx_t_13;
 
-      /* "lk_stat_package/lk_stat.pyx":57
+      /* "lk_stat_package/lk_stat.pyx":58
  * 
  *         for j in range(data_size):
  *             for k in range(j + 1, data_size):             # <<<<<<<<<<<<<<
@@ -19694,7 +19694,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
       for (__pyx_t_17 = (__pyx_v_j + 1); __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
         __pyx_v_k = __pyx_t_17;
 
-        /* "lk_stat_package/lk_stat.pyx":58
+        /* "lk_stat_package/lk_stat.pyx":59
  *         for j in range(data_size):
  *             for k in range(j + 1, data_size):
  *                 if phi[idx[j]] > phi[idx[k]]:             # <<<<<<<<<<<<<<
@@ -19704,7 +19704,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
         __pyx_t_18 = ((__pyx_v_phi[(__pyx_v_idx[__pyx_v_j])]) > (__pyx_v_phi[(__pyx_v_idx[__pyx_v_k])]));
         if (__pyx_t_18) {
 
-          /* "lk_stat_package/lk_stat.pyx":59
+          /* "lk_stat_package/lk_stat.pyx":60
  *             for k in range(j + 1, data_size):
  *                 if phi[idx[j]] > phi[idx[k]]:
  *                     idx[j], idx[k] = idx[k], idx[j]             # <<<<<<<<<<<<<<
@@ -19716,7 +19716,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
           (__pyx_v_idx[__pyx_v_j]) = __pyx_t_19;
           (__pyx_v_idx[__pyx_v_k]) = __pyx_t_20;
 
-          /* "lk_stat_package/lk_stat.pyx":58
+          /* "lk_stat_package/lk_stat.pyx":59
  *         for j in range(data_size):
  *             for k in range(j + 1, data_size):
  *                 if phi[idx[j]] > phi[idx[k]]:             # <<<<<<<<<<<<<<
@@ -19727,7 +19727,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
       }
     }
 
-    /* "lk_stat_package/lk_stat.pyx":61
+    /* "lk_stat_package/lk_stat.pyx":62
  *                     idx[j], idx[k] = idx[k], idx[j]
  * 
  *         for j in range(data_size):             # <<<<<<<<<<<<<<
@@ -19739,7 +19739,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
     for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_12; __pyx_t_13+=1) {
       __pyx_v_j = __pyx_t_13;
 
-      /* "lk_stat_package/lk_stat.pyx":62
+      /* "lk_stat_package/lk_stat.pyx":63
  * 
  *         for j in range(data_size):
  *             sorted_mag[j] = mag[idx[j]]             # <<<<<<<<<<<<<<
@@ -19749,7 +19749,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
       __pyx_t_10 = (__pyx_v_idx[__pyx_v_j]);
       (__pyx_v_sorted_mag[__pyx_v_j]) = (*((double *) ( /* dim=0 */ (__pyx_v_mag.data + __pyx_t_10 * __pyx_v_mag.strides[0]) )));
 
-      /* "lk_stat_package/lk_stat.pyx":63
+      /* "lk_stat_package/lk_stat.pyx":64
  *         for j in range(data_size):
  *             sorted_mag[j] = mag[idx[j]]
  *             sorted_magerr[j] = magerr[idx[j]]             # <<<<<<<<<<<<<<
@@ -19760,7 +19760,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
       (__pyx_v_sorted_magerr[__pyx_v_j]) = (*((double *) ( /* dim=0 */ (__pyx_v_magerr.data + __pyx_t_10 * __pyx_v_magerr.strides[0]) )));
     }
 
-    /* "lk_stat_package/lk_stat.pyx":65
+    /* "lk_stat_package/lk_stat.pyx":66
  *             sorted_magerr[j] = magerr[idx[j]]
  * 
  *         for j in range(data_size - 1):             # <<<<<<<<<<<<<<
@@ -19772,7 +19772,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
     for (__pyx_t_11 = 0; __pyx_t_11 < __pyx_t_22; __pyx_t_11+=1) {
       __pyx_v_j = __pyx_t_11;
 
-      /* "lk_stat_package/lk_stat.pyx":66
+      /* "lk_stat_package/lk_stat.pyx":67
  * 
  *         for j in range(data_size - 1):
  *             w[j] = 1 / (pow(sorted_magerr[j + 1], 2) + pow(sorted_magerr[j], 2))             # <<<<<<<<<<<<<<
@@ -19782,12 +19782,12 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
       __pyx_t_14 = (pow((__pyx_v_sorted_magerr[(__pyx_v_j + 1)]), 2.0) + pow((__pyx_v_sorted_magerr[__pyx_v_j]), 2.0));
       if (unlikely(__pyx_t_14 == 0)) {
         PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-        __PYX_ERR(0, 66, __pyx_L1_error)
+        __PYX_ERR(0, 67, __pyx_L1_error)
       }
       (__pyx_v_w[__pyx_v_j]) = (1.0 / __pyx_t_14);
     }
 
-    /* "lk_stat_package/lk_stat.pyx":68
+    /* "lk_stat_package/lk_stat.pyx":69
  *             w[j] = 1 / (pow(sorted_magerr[j + 1], 2) + pow(sorted_magerr[j], 2))
  * 
  *         sum_w = sum_w_diff_sq = sum_var = mean_m = 0             # <<<<<<<<<<<<<<
@@ -19799,7 +19799,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
     __pyx_v_sum_var = 0.0;
     __pyx_v_mean_m = 0.0;
 
-    /* "lk_stat_package/lk_stat.pyx":69
+    /* "lk_stat_package/lk_stat.pyx":70
  * 
  *         sum_w = sum_w_diff_sq = sum_var = mean_m = 0
  *         for j in range(1, data_size):             # <<<<<<<<<<<<<<
@@ -19811,7 +19811,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
     for (__pyx_t_13 = 1; __pyx_t_13 < __pyx_t_12; __pyx_t_13+=1) {
       __pyx_v_j = __pyx_t_13;
 
-      /* "lk_stat_package/lk_stat.pyx":70
+      /* "lk_stat_package/lk_stat.pyx":71
  *         sum_w = sum_w_diff_sq = sum_var = mean_m = 0
  *         for j in range(1, data_size):
  *             mean_m += sorted_mag[j]             # <<<<<<<<<<<<<<
@@ -19821,7 +19821,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
       __pyx_v_mean_m = (__pyx_v_mean_m + (__pyx_v_sorted_mag[__pyx_v_j]));
     }
 
-    /* "lk_stat_package/lk_stat.pyx":71
+    /* "lk_stat_package/lk_stat.pyx":72
  *         for j in range(1, data_size):
  *             mean_m += sorted_mag[j]
  *         mean_m /= (data_size - 1)             # <<<<<<<<<<<<<<
@@ -19831,11 +19831,11 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
     __pyx_t_21 = (__pyx_v_data_size - 1);
     if (unlikely(__pyx_t_21 == 0)) {
       PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-      __PYX_ERR(0, 71, __pyx_L1_error)
+      __PYX_ERR(0, 72, __pyx_L1_error)
     }
     __pyx_v_mean_m = (__pyx_v_mean_m / __pyx_t_21);
 
-    /* "lk_stat_package/lk_stat.pyx":73
+    /* "lk_stat_package/lk_stat.pyx":74
  *         mean_m /= (data_size - 1)
  * 
  *         for j in range(1, data_size):             # <<<<<<<<<<<<<<
@@ -19847,7 +19847,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
     for (__pyx_t_13 = 1; __pyx_t_13 < __pyx_t_12; __pyx_t_13+=1) {
       __pyx_v_j = __pyx_t_13;
 
-      /* "lk_stat_package/lk_stat.pyx":74
+      /* "lk_stat_package/lk_stat.pyx":75
  * 
  *         for j in range(1, data_size):
  *             sum_w += w[j - 1]             # <<<<<<<<<<<<<<
@@ -19856,7 +19856,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
       __pyx_v_sum_w = (__pyx_v_sum_w + (__pyx_v_w[(__pyx_v_j - 1)]));
 
-      /* "lk_stat_package/lk_stat.pyx":75
+      /* "lk_stat_package/lk_stat.pyx":76
  *         for j in range(1, data_size):
  *             sum_w += w[j - 1]
  *             sum_w_diff_sq += w[j - 1] * pow((sorted_mag[j] - sorted_mag[j - 1]), 2)             # <<<<<<<<<<<<<<
@@ -19865,7 +19865,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
       __pyx_v_sum_w_diff_sq = (__pyx_v_sum_w_diff_sq + ((__pyx_v_w[(__pyx_v_j - 1)]) * pow(((__pyx_v_sorted_mag[__pyx_v_j]) - (__pyx_v_sorted_mag[(__pyx_v_j - 1)])), 2.0)));
 
-      /* "lk_stat_package/lk_stat.pyx":76
+      /* "lk_stat_package/lk_stat.pyx":77
  *             sum_w += w[j - 1]
  *             sum_w_diff_sq += w[j - 1] * pow((sorted_mag[j] - sorted_mag[j - 1]), 2)
  *             sum_var += pow((sorted_mag[j] - mean_m), 2)             # <<<<<<<<<<<<<<
@@ -19875,7 +19875,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
       __pyx_v_sum_var = (__pyx_v_sum_var + pow(((__pyx_v_sorted_mag[__pyx_v_j]) - __pyx_v_mean_m), 2.0));
     }
 
-    /* "lk_stat_package/lk_stat.pyx":78
+    /* "lk_stat_package/lk_stat.pyx":79
  *             sum_var += pow((sorted_mag[j] - mean_m), 2)
  * 
  *         theta_array[i] = sum_w_diff_sq / (sum_var * sum_w)             # <<<<<<<<<<<<<<
@@ -19885,13 +19885,13 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
     __pyx_t_14 = (__pyx_v_sum_var * __pyx_v_sum_w);
     if (unlikely(__pyx_t_14 == 0)) {
       PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-      __PYX_ERR(0, 78, __pyx_L1_error)
+      __PYX_ERR(0, 79, __pyx_L1_error)
     }
     __pyx_t_10 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_theta_array.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_theta_array.diminfo[0].strides) = (__pyx_v_sum_w_diff_sq / __pyx_t_14);
   }
 
-  /* "lk_stat_package/lk_stat.pyx":80
+  /* "lk_stat_package/lk_stat.pyx":81
  *         theta_array[i] = sum_w_diff_sq / (sum_var * sum_w)
  * 
  *     free(phi)             # <<<<<<<<<<<<<<
@@ -19900,7 +19900,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
   free(__pyx_v_phi);
 
-  /* "lk_stat_package/lk_stat.pyx":81
+  /* "lk_stat_package/lk_stat.pyx":82
  * 
  *     free(phi)
  *     free(nphi)             # <<<<<<<<<<<<<<
@@ -19909,7 +19909,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
   free(__pyx_v_nphi);
 
-  /* "lk_stat_package/lk_stat.pyx":82
+  /* "lk_stat_package/lk_stat.pyx":83
  *     free(phi)
  *     free(nphi)
  *     free(sorted_mag)             # <<<<<<<<<<<<<<
@@ -19918,7 +19918,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
   free(__pyx_v_sorted_mag);
 
-  /* "lk_stat_package/lk_stat.pyx":83
+  /* "lk_stat_package/lk_stat.pyx":84
  *     free(nphi)
  *     free(sorted_mag)
  *     free(sorted_magerr)             # <<<<<<<<<<<<<<
@@ -19927,7 +19927,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
   free(__pyx_v_sorted_magerr);
 
-  /* "lk_stat_package/lk_stat.pyx":84
+  /* "lk_stat_package/lk_stat.pyx":85
  *     free(sorted_mag)
  *     free(sorted_magerr)
  *     free(w)             # <<<<<<<<<<<<<<
@@ -19936,7 +19936,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
   free(__pyx_v_w);
 
-  /* "lk_stat_package/lk_stat.pyx":85
+  /* "lk_stat_package/lk_stat.pyx":86
  *     free(sorted_magerr)
  *     free(w)
  *     free(idx)             # <<<<<<<<<<<<<<
@@ -19945,7 +19945,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
  */
   free(__pyx_v_idx);
 
-  /* "lk_stat_package/lk_stat.pyx":87
+  /* "lk_stat_package/lk_stat.pyx":88
  *     free(idx)
  * 
  *     return theta_array             # <<<<<<<<<<<<<<
@@ -19956,7 +19956,7 @@ static PyObject *__pyx_pf_15lk_stat_package_7lk_stat_lk_stat(CYTHON_UNUSED PyObj
   __pyx_r = ((PyObject *)__pyx_v_theta_array);
   goto __pyx_L0;
 
-  /* "lk_stat_package/lk_stat.pyx":12
+  /* "lk_stat_package/lk_stat.pyx":13
  *     void free(void* ptr)
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -21118,7 +21118,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
 }
 /* #### Code section: cached_builtins ### */
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
-  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 47, __pyx_L1_error)
+  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 48, __pyx_L1_error)
   __pyx_builtin___import__ = __Pyx_GetBuiltinName(__pyx_n_s_import); if (!__pyx_builtin___import__) __PYX_ERR(1, 100, __pyx_L1_error)
   __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(1, 141, __pyx_L1_error)
   __pyx_builtin_MemoryError = __Pyx_GetBuiltinName(__pyx_n_s_MemoryError); if (!__pyx_builtin_MemoryError) __PYX_ERR(1, 156, __pyx_L1_error)
@@ -21298,17 +21298,17 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__20);
   __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) __PYX_ERR(1, 1, __pyx_L1_error)
 
-  /* "lk_stat_package/lk_stat.pyx":12
+  /* "lk_stat_package/lk_stat.pyx":13
  *     void free(void* ptr)
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def lk_stat(double[:] periods, double[:] mag, double[:] magerr, double[:] Time):
  */
-  __pyx_tuple__22 = PyTuple_Pack(21, __pyx_n_s_periods, __pyx_n_s_mag, __pyx_n_s_magerr, __pyx_n_s_Time, __pyx_n_s_periods_size, __pyx_n_s_data_size, __pyx_n_s_p, __pyx_n_s_phi, __pyx_n_s_nphi, __pyx_n_s_sorted_mag, __pyx_n_s_sorted_magerr, __pyx_n_s_w, __pyx_n_s_idx, __pyx_n_s_i, __pyx_n_s_j, __pyx_n_s_k, __pyx_n_s_sum_w, __pyx_n_s_sum_w_diff_sq, __pyx_n_s_sum_var, __pyx_n_s_mean_m, __pyx_n_s_theta_array); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(0, 12, __pyx_L1_error)
+  __pyx_tuple__22 = PyTuple_Pack(21, __pyx_n_s_periods, __pyx_n_s_mag, __pyx_n_s_magerr, __pyx_n_s_Time, __pyx_n_s_periods_size, __pyx_n_s_data_size, __pyx_n_s_p, __pyx_n_s_phi, __pyx_n_s_nphi, __pyx_n_s_sorted_mag, __pyx_n_s_sorted_magerr, __pyx_n_s_w, __pyx_n_s_idx, __pyx_n_s_i, __pyx_n_s_j, __pyx_n_s_k, __pyx_n_s_sum_w, __pyx_n_s_sum_w_diff_sq, __pyx_n_s_sum_var, __pyx_n_s_mean_m, __pyx_n_s_theta_array); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(0, 13, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__22);
   __Pyx_GIVEREF(__pyx_tuple__22);
-  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 21, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_lk_stat_package_lk_stat_pyx, __pyx_n_s_lk_stat, 12, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) __PYX_ERR(0, 12, __pyx_L1_error)
+  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 21, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_lk_stat_package_lk_stat_pyx, __pyx_n_s_lk_stat, 13, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) __PYX_ERR(0, 13, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -22416,34 +22416,34 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pyx_unpickle_Enum, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "lk_stat_package/lk_stat.pyx":3
- * cimport cython
+  /* "lk_stat_package/lk_stat.pyx":4
+ * import cython
  * cimport numpy as np
  * import numpy as np             # <<<<<<<<<<<<<<
  * from libc.stdlib cimport malloc, free
  * 
  */
-  __pyx_t_7 = __Pyx_ImportDottedModule(__pyx_n_s_numpy, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 3, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_ImportDottedModule(__pyx_n_s_numpy, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_7) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_7) < 0) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "lk_stat_package/lk_stat.pyx":12
+  /* "lk_stat_package/lk_stat.pyx":13
  *     void free(void* ptr)
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def lk_stat(double[:] periods, double[:] mag, double[:] magerr, double[:] Time):
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_15lk_stat_package_7lk_stat_1lk_stat, 0, __pyx_n_s_lk_stat, NULL, __pyx_n_s_lk_stat_package_lk_stat, __pyx_d, ((PyObject *)__pyx_codeobj__23)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 12, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_15lk_stat_package_7lk_stat_1lk_stat, 0, __pyx_n_s_lk_stat, NULL, __pyx_n_s_lk_stat_package_lk_stat, __pyx_d, ((PyObject *)__pyx_codeobj__23)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 13, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_lk_stat, __pyx_t_7) < 0) __PYX_ERR(0, 12, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_lk_stat, __pyx_t_7) < 0) __PYX_ERR(0, 13, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "lk_stat_package/lk_stat.pyx":1
  * cimport cython             # <<<<<<<<<<<<<<
+ * import cython
  * cimport numpy as np
- * import numpy as np
  */
   __pyx_t_7 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
