@@ -1,4 +1,4 @@
-from setuptools import setup, Extension
+from setuptools import setup, Extension, find_packages
 from Cython.Build import cythonize
 import numpy as np
 
@@ -28,6 +28,7 @@ setup(
     ext_modules=cythonize(extensions),
     zip_safe=False,
     install_requires=["numpy","cython"],
+    setup_requires=["numpy", "Cython"],
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
