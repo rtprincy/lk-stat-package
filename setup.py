@@ -16,7 +16,7 @@ extensions = [
 # Setup script
 setup(
     name="lk_stat_package",
-    version="0.1.2",
+    version="0.1.3",
     description="A Cython-based package for computing the Laffler-Kinman statistic.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: lk_stat_package
-Version: 0.1.2
+Version: 0.1.3
 Summary: A Cython-based package for computing the Laffler-Kinman statistic.
 Author: Princy Ranaivomanana
 Author-email: rtprincy@gmail.com
