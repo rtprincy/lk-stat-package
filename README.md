@@ -20,7 +20,7 @@ Use the following line of code to import the package:
 from lk_stat_package import lk_stat
 
 
-### Computing the Laffler-Kinman Statistic
+### Computing the Lafler-Kinman Statistic
 
 To compute the Laffler-Kinman statistic, use the `lk_stat` function as shown below:
 
@@ -35,7 +35,7 @@ theta = lk_stat(periods, magnitude, magnitude_err, time)
 - Time: Array of observation times.
 
 **Returns:**
-- theta: The Laffler-Kinman statistic for each trial period.
+- theta: The Lafler-Kinman statistic for each trial period.
 
 Feel free to contact the author for any questions or contributions!
 
