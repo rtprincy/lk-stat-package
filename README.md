@@ -1,4 +1,4 @@
-This package computes the Laffler-Kinman statistic $\Theta$ for time-series data, incorporating the uncertainties of the flux/magnitude measurements.
+This package computes the Lafler-Kinman statistic $\Theta$ for time-series data, incorporating the uncertainties of the flux/magnitude measurements.
 
 ## Installation
 
